@@ -1,0 +1,5 @@
+curl -X POST -H "Content-Type: application/json" -d '{"cardNumber":12345,"statusCode":"Approved"}' http://localhost:8888/accountmember
+
+
+curl http://localhost:8888/kafka/produce/HelloKafka
+
